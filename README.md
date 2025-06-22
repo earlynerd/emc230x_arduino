@@ -13,12 +13,6 @@ A comprehensive Arduino library for controlling EMC2301, EMC2302, EMC2303, and E
 
 ## Installation
 
-### Arduino Library Manager (Recommended)
-1. Open Arduino IDE
-2. Go to **Sketch > Include Library > Manage Libraries**
-3. Search for "EMC230x"
-4. Install the library
-
 ### Manual Installation
 1. Download this library as a ZIP file
 2. Open Arduino IDE
