@@ -25,7 +25,7 @@
       "maintainer": true
     }
   ],
-  "license": "CC-0",
+  "license": "MIT",
   "homepage": "https://github.com/earlynerd/emc230x_arduino",
   "repository": {
     "type": "git",
