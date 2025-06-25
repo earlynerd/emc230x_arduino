@@ -1,0 +1,94 @@
+{
+  "name": "EMC230x_arduino",
+  "version": "1.0.0",
+  "description": "Arduino library for EMC2301/2/3/5 RPM-Based PWM Fan Controllers via I2C. Supports PWM control, RPM-based control, PID tuning, fault detection, and advanced configuration options.",
+  "keywords": [
+    "fan",
+    "controller",
+    "pwm", 
+    "rpm",
+    "i2c",
+    "emc2301",
+    "emc2302", 
+    "emc2303",
+    "emc2305",
+    "pid",
+    "tachometer",
+    "cooling",
+    "thermal",
+    "speed control"
+  ],
+  "authors": [
+    {
+      "name": "Matthew Sylvester",
+      "email": "mmsylvester@outlook.com",
+      "maintainer": true
+    }
+  ],
+  "license": "CC-0",
+  "homepage": "https://github.com/earlynerd/emc230x_arduino",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/earlynerd/emc230x_arduino.git"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "atmelavr",
+    "atmelsam", 
+    "espressif8266",
+    "espressif32",
+    "ststm32",
+    "raspberrypi",
+    "nordicnrf52"
+  ],
+  "headers": [
+    "EMC230x.h"
+  ],
+  "dependencies": [
+    {
+      "name": "Wire",
+      "frameworks": "arduino"
+    }
+  ],
+  "examples": [
+    {
+      "name": "BasicFanControl",
+      "base": "examples/BasicFanControl",
+      "files": [
+        "BasicFanControl.ino"
+      ]
+    },
+    {
+      "name": "RPMControl", 
+      "base": "examples/RPMControl",
+      "files": [
+        "RPMControl.ino"
+      ]
+    },
+    {
+      "name": "AdvancedConfiguration",
+      "base": "examples/AdvancedConfiguration", 
+      "files": [
+        "AdvancedConfiguration.ino"
+      ]
+    },
+    {
+      "name": "FanMonitoring",
+      "base": "examples/FanMonitoring",
+      "files": [
+        "FanMonitoring.ino"
+      ]
+    }
+  ],
+  "export": {
+    "include": [
+      "src/*",
+      "examples/*",
+      "README.md",
+      "library.properties",
+      "keywords.txt"
+    ]
+  }
+}
